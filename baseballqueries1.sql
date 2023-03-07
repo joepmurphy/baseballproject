@@ -24,7 +24,7 @@ FROM batting
 WHERE HR > 30 AND age > 30
 ORDER BY age;
 
--- we can use the batters table to tell us the average batting average accross
+-- we can use the batters table to tell us the average homeruns (HR) accross
 -- the league, this isn't official and would have some technical errors but is an
 -- example of using ROUND and AVG in the select statement to generate a single answer
 SELECT ROUND(AVG(HR), 2) AS league_avg_HRs
