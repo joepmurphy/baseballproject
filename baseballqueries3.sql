@@ -52,7 +52,7 @@ SELECT
 FROM All_Qualifying_Batters;
 
 
--- Using DENSE_RANK we can rank home run leaders
+-- Using DENSE_RANK we can rank home run leaders and will show ties as the same rank
 WITH HR_Leaders AS (
   SELECT DISTINCT
     Name,
